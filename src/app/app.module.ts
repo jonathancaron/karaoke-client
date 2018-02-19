@@ -5,7 +5,7 @@ import { MyApp } from './app.component';
 
 import { MusicPage } from '../pages/music/music';
 import { NewsPage } from '../pages/news/news';
-import { VideoPage } from '../pages/video/video';
+import { AccueilPage } from '../pages/accueil/accueil';
 import { TabsPage } from '../pages/tabs/tabs';
 import { WelcomePage } from '../pages/welcome/welcome';
 import { LoginPage } from '../pages/login/login';
@@ -18,7 +18,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     MusicPage,
     NewsPage,
-    VideoPage,
+    AccueilPage,
     TabsPage,
     WelcomePage,
     LoginPage
@@ -32,7 +32,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     MusicPage,
     NewsPage,
-    VideoPage,
+    AccueilPage,
     TabsPage,
     WelcomePage,
     LoginPage

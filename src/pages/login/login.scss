@@ -17,7 +17,7 @@ page-login {
         display: block;
         margin: auto;
         width: 120px;
-        margin-top: 2vh;
+        margin-top: 4vh;
         margin-bottom: 1vh;
     }
     .item{
@@ -44,11 +44,16 @@ page-login {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 200px;
+        width: 240px;
         
     }
     .btn-login{
         width: 250px;
+    }
+    .btn-reg{
+        width: 250px;
+        color:#fff;
+        border-color:#fff;
     }
     
 }

@@ -1,0 +1,24 @@
+page-accueil {
+    .title{
+        color:#ebebeb;
+    }
+    .background{
+        background-image: url('../assets/images/font-karaoke3.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .logo{
+        display: block;
+        width: 50px;
+        margin-top: 1vh;
+        margin-left: 1vh;
+        margin-bottom: 1vh;
+    }
+    .nodecore{
+        background-color: black;
+    }
+    .scroll .scroll-content{
+        overflow: hidden;
+    }
+}
