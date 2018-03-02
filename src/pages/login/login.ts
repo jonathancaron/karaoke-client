@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { TabsPage } from '../tabs/tabs'
+import { TabsPage } from '../tabs/tabs';
+import { ConnexionPage } from '../connexion/connexion';
+import { EnregistrementPage } from '../enregistrement/enregistrement';
 /**
  * Generated class for the LoginPage page.
  *
@@ -15,6 +17,8 @@ import { TabsPage } from '../tabs/tabs'
 })
 export class LoginPage {
 
+  connexionPage = ConnexionPage;
+  enregistrementPage = EnregistrementPage;
   nextPage = TabsPage;
   
   constructor(public navCtrl: NavController, public navParams: NavParams) {

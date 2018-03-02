@@ -24,3 +24,6 @@
     src: url('../assets/fonts/open-sans.woff2') format('woff2');
 }
 *{font-family: baloo-bhai;}
+[scrollbar-y-auto] .scroll-content {
+    overflow-y: auto !important;
+  }

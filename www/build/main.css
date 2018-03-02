@@ -25692,6 +25692,10 @@ ion-navbar.toolbar {
   font-family: baloo-bhai;
 }
 
+[scrollbar-y-auto] .scroll-content {
+  overflow-y: auto !important;
+}
+
 page-accueil .title {
   color: #ebebeb;
 }
@@ -25717,6 +25721,57 @@ page-accueil .nodecore {
 
 page-accueil .scroll .scroll-content {
   overflow: hidden;
+}
+
+page-accueil .scroll-bar-indicator {
+  display: none;
+}
+
+page-accueil .titre {
+  color: #ebebeb;
+  margin: auto;
+  padding-top: 150px;
+}
+
+page-accueil .soustitre {
+  color: #ebebeb;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 120px;
+}
+
+page-accueil .btn {
+  width: 250px;
+}
+
+page-enregistrement .bg-register {
+  background-image: url("../assets/images/bg-register2.jpg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: cover;
+}
+
+page-enregistrement .scroll .scroll-content {
+  overflow: hidden;
+}
+
+page-enregistrement .item {
+  background-color: transparent;
+  border: none;
+  margin-bottom: 15px;
+}
+
+page-enregistrement .list {
+  width: 50%;
+  position: absolute;
+  right: 100px;
+  margin: auto;
+}
+
+page-enregistrement .btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 page-login a {
@@ -25781,6 +25836,25 @@ page-login .btn-reg {
   width: 250px;
   color: #fff;
   border-color: #fff;
+}
+
+page-principal .scroll .scroll-content {
+  overflow: hidden;
+}
+
+page-principal .bg {
+  background-image: url("../assets/images/bg-principal6.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+page-principal .logo {
+  display: block;
+  margin: auto;
+  width: 120px;
+  margin-top: 4vh;
+  margin-bottom: 1vh;
 }
 
 page-welcome .bg-img {

@@ -21,4 +21,22 @@ page-accueil {
     .scroll .scroll-content{
         overflow: hidden;
     }
+    .scroll-bar-indicator
+    {
+        display: none;
+    }
+    .titre{
+        color: #ebebeb;
+        margin: auto;
+        padding-top: 150px;
+    }
+    .soustitre{
+        color: #ebebeb;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 120px;
+    }
+    .btn{
+        width: 250px;
+    }
 }
