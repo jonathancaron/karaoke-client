@@ -4,10 +4,10 @@
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
-<ion-header>
+<ion-header>,
 
   <ion-navbar>
-    <ion-title>principal</ion-title>
+    <!-- <ion-title>principal</ion-title> -->
     
   </ion-navbar>
 
@@ -15,6 +15,52 @@
 
 
 <ion-content padding class="scroll bg">
-    <img src="../assets/images/logom.jpeg" alt="logo" class="logo">
+  <img src="../assets/images/logom.jpeg" alt="logo" class="logo">
+  <h1 text-center style="color: rgb(99, 99, 99)">App Karaoke</h1>
+  <p text-center style="color: rgb(99, 99, 99); font-family:open-sans; font-size:14px;">Démontrez vos talents de chanteur !</p>
+  <br>
+  <div text-center>
+    <button class="btn" ion-button color='secondary' round [navPush]="nextPage">Voir comment ça marche</button>
+  </div>
+  <div class="secondPage">
+    <h3 class="sousTitre" text-center style="color: rgb(129, 111, 125)">Choisissez votre catégorie</h3>
+    <div class="categories">
+      <div class="cat">
+        <img class="catImg" src="../assets/images/categories/rock.jpg">
+        <span class="catTitre">Rock</span>
+      </div>
+      <div class="cat">
+        <img class="catImg" src="../assets/images/categories/pop.jpg">
+        <span class="catTitre">Pop</span>
+      </div>
+      <div class="cat">
+        <img class="catImg" src="../assets/images/categories/rap.jpg">
+        <span class="catTitre">Rap</span>
+      </div>
+      <div class="cat">
+        <img class="catImg" src="../assets/images/categories/jazz.png">
+        <span class="catTitre">Jazz</span>
+      </div>
+      <div class="cat">
+        <img class="catImg" src="../assets/images/categories/disney.jpg">
+        <span class="catTitre">Walt Disney</span>
+      </div>
+      <div class="cat">
+        <img class="catImg" src="../assets/images/categories/love.jpeg">
+        <span class="catTitre">Love</span>
+      </div>
 
+    </div>
+<br><br>
+    <h3 class="sousTitre" text-center style="color: rgb(129, 111, 125)">Visitez notre établissement</h3>
+    <div class="accesTexte" text-center>Situé dans le nord de Bruxelles, notre bar est facilement accessible via les transports publics ou en voiture. Voir plan ci-dessous.</div>
+    <img src="../assets/images/googlemap.jpg" style="min-width:100%;max-width:100%;margin:auto;display: block;">
+<br><br>
+<h3 class="sousTitre" text-center style="color: rgb(129, 111, 125)">Contact</h3>
+    <div class="accesTexte" text-center>Vous souhaitez en savoir plus sur notre établissement ?</div>
+    <div text-center>
+      <button class="btn" ion-button color='secondary' outline [navPush]="nextPage">Contactez-nous</button>
+    </div>
+  </div>
+  
 </ion-content>
