@@ -25838,6 +25838,24 @@ page-login .btn-reg {
   border-color: #fff;
 }
 
+page-playlist #main {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("../assets/images/playlist.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+page-playlist .scroll .scroll-content {
+  overflow: hidden;
+}
+
+page-playlist ion-header {
+  background-color: #383838;
+}
+
 page-principal .bg {
   background-image: url("../assets/images/bg-principal6.jpg");
   background-repeat: no-repeat;
@@ -25854,7 +25872,7 @@ page-principal .logo {
 }
 
 page-principal .secondPage {
-  margin-top: 60vh;
+  margin-top: 55vh;
   background-color: #ebebeb;
   padding-bottom: 15px;
   border-radius: 4px;

@@ -12,6 +12,7 @@ import { LoginPage } from '../pages/login/login';
 import { ConnexionPage } from '../pages/connexion/connexion';
 import { EnregistrementPage } from '../pages/enregistrement/enregistrement';
 import { PrincipalPage } from '../pages/principal/principal';
+import { PlaylistPage } from '../pages/playlist/playlist';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -27,7 +28,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LoginPage,
     ConnexionPage,
     EnregistrementPage,
-    PrincipalPage
+    PrincipalPage,
+    PlaylistPage
   ],
   imports: [
     BrowserModule,
@@ -44,7 +46,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LoginPage,
     ConnexionPage,
     EnregistrementPage,
-    PrincipalPage
+    PrincipalPage,
+    PlaylistPage
   ],
   providers: [
     StatusBar,

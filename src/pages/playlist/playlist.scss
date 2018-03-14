@@ -1,0 +1,18 @@
+page-playlist {
+    #main{
+        margin: 0px;
+        padding: 0px;
+        background-image: url('../assets/images/playlist.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+        
+    }
+    .scroll .scroll-content{
+        overflow: hidden;
+    }
+    ion-header{
+        background-color: #383838;
+    }
+}
